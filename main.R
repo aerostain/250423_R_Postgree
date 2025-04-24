@@ -53,5 +53,12 @@ system("git commit -m 'Upd_1'")
 system("git log")
 system("git push repos master")
 
+# Opciones de Consola
+options("width" = 10000)
+getOption("width")
+
+
 # Procesamiento
-mtcars
+mtcars %>% str
+mtcars %>% info
+
