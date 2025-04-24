@@ -37,19 +37,21 @@ file.create("notes.md")
 file.create("test.R")
 file.create("informe.qmd")
 
-# Procesamiento
+# Git
 system("ipconfig")
 system("git config --global user.name 'r1ck7'")
 system("git config --global user.email 'richims026@gmail.com'")
 
 system("git init")
-system("git remote add
-repos https://github.com/aerostain/250423_R_Postgree.git")
+system("git remote add repos 250423_R_Postgree.git")
 system("git remote -v")
 
 system("git status")
 system("git add .")
 system("git status")
-system("git commit -m 'Init'")
+system("git commit -m 'Upd_1'")
 system("git log")
+system("git push repos master")
 
+# Procesamiento
+mtcars
